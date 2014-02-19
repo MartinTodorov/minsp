@@ -1,0 +1,29 @@
+{
+    "name": "fightbulc/cirrus",
+    "description": "Soundcloud API Reader Library to fetch data for users, tracks and playlists",
+    "version": "1.0.10",
+    "type": "library",
+    "keywords": ["soundcloud", "api", "tracks", "users", "playlists"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tino Ehrich",
+            "email": "opensource@efides.com",
+            "role": "developer"
+        }
+    ],
+
+    "minimum-stability": "dev",
+
+    "require": {
+        "php": ">=5.4",
+        "fightbulc/php_curl": "1.0.*",
+        "ext-json": "*"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Cirrus": "src/"
+        }
+    }
+}
